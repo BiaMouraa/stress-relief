@@ -7,13 +7,13 @@ const clearContent = () => {
 };
 
 const getTasks = () => {
-    return JSON.parse(localStorage.getItem("quotes"));
+    return JSON.parse(localStorage.getItem("citações"));
 };
 
 const updateTasks = (taskHolder, task) => {
     const tasks = getTasks();    
     tasks.push(task);
-    localStorage.setItem("quotes", JSON.stringify(tasks));
+    localStorage.setItem("citações", JSON.stringify(tasks));
     renderTasks(taskHolder);
 };
 
@@ -37,15 +37,14 @@ const renderTasks = (taskHolder) => {
 
 const initHome = () => {
     const content = clearContent();
-    appendElem(content, "p", ['slight-header'], "Dashboard");
+    appendElem(content, "p", ['slight-header'], "Painel de Controle");
     appendElem(content, "p", [], formatDate());
     const hiBlock = appendElem(content, "div", ["hi-block"]);
-    appendElem(hiBlock, "p", ["slight-header"], "Hi, " + localStorage.getItem("userName"));
-    appendElem(hiBlock, "p", ["gray-text"], "Don't worry, you'll get through it!");
-    appendElem(hiBlock, "p", ["gray-text"], "We prepared you some tips on how to stay mentally healthy!");
+    appendElem(hiBlock, "p", ["slight-header"], "Oi, " + localStorage.getItem("userName"));
+    appendElem(hiBlock, "p", ["gray-text"], "Não se preocupe, você vai superar isso!");
+    appendElem(hiBlock, "p", ["gray-text"], "Preparamos algumas dicas sobre como manter a saúde mental!");
     const umbrellaCat = appendElem(hiBlock, "img", ['umbrella-cat']);
     umbrellaCat.src = "img/cat-umbrella.png";
-
 
     const taskHolder = createElem("div", ['task-holder']);
     renderTasks(taskHolder);
@@ -53,9 +52,9 @@ const initHome = () => {
 
     const taskAdder = appendElem(content, "div", ['task-adder']);
     const addTask = appendElem(taskAdder, "div", ['task-block', 'task-add']);
-    appendElem(addTask, "p", ['task-prompt'], "Something inspirational?");
+    appendElem(addTask, "p", ['task-prompt'], "Algo inspirador?");
     const taskNameInput = appendElem(addTask, "input", ['task-name-input']);
-    const addTaskButton = appendElem(addTask, "div", ['action-button'], "Add new thought");
+    const addTaskButton = appendElem(addTask, "div", ['action-button'], "Adicionar novo pensamento");
     addTaskButton.addEventListener("click", () => {
         let name = taskNameInput.value;
         updateTasks(taskHolder, {
@@ -70,7 +69,7 @@ const cmp = (a, b) => {
 
 const initGraph = () => {
     const content = clearContent();
-    appendElem(content, "p", ['slight-header'], "Graph of emotions");
+    appendElem(content, "p", ['slight-header'], "Gráfico de Emoções");
     const graphHolder = appendElem(content, "div", ['graph-holder']);
 
     let diaryEntries = JSON.parse(localStorage.getItem("diary-entries"));
@@ -94,13 +93,13 @@ const initGraph = () => {
             labels: {
                 formatter: function (value) {
                     if (cmp(value, 3)) {
-                        return "good  ";
+                        return "bom  ";
                     }
                     if (cmp(value, 2)) {
-                        return "neutral  ";
+                        return "neutro  ";
                     }
                     if (cmp(value, 1)) {
-                        return "bad  ";
+                        return "ruim  ";
                     }
                     return "";
                 }
@@ -152,12 +151,12 @@ const initGraph = () => {
 const initWordCloud = () => {
     let wordsData = localStorage.getItem("words");
     const content = clearContent();
-    appendElem(content, "p", ['slight-header'], "Word Cloud");
+    appendElem(content, "p", ['slight-header'], "Nuvem de Palavras");
 
     if (!wordsData) {
-        wordsData = "No data yet!";
+        wordsData = "Ainda sem dados!";
     }
-    const pleaseWait = appendElem(content, "p", ['gray-text'], "Generating your word cloud, please wait...");
+    const pleaseWait = appendElem(content, "p", ['gray-text'], "Gerando sua nuvem de palavras, por favor aguarde...");
 
     const wordCloudWrapper = appendElem(content, "div", ['word-cloud-wrapper']);
     const wordCloudImage = appendElem(wordCloudWrapper, "img", ['word-cloud-image'], "");
@@ -194,9 +193,9 @@ const initArticle = (article) => {
 
 const initTest = () => {
     const content = clearContent();
-    appendElem(content, "p", ['big-header'], "Mental diseases");
-    appendElem(content, "p", ['gray-text'], "If you notice some of the following symptoms,");
-    appendElem(content, "p", ['gray-text'], "you should probably go see a doctor.");
+    appendElem(content, "p", ['big-header'], "Doenças Mentais");
+    appendElem(content, "p", ['gray-text'], "Se você notar alguns dos seguintes sintomas,");
+    appendElem(content, "p", ['gray-text'], "provavelmente deveria consultar um médico.");
     const articleWrapper = appendElem(content, "div", ['article-wrapper']);
     const articles = getArticles();
     articles.forEach(article => {
@@ -213,23 +212,17 @@ const initTest = () => {
 const initAbout = () => {
     const content = clearContent();
     const articleContent = [
-        "Not surprisingly, the coronavirus pandemic and resulting economic \
-         downturn have taken a toll on the mental health of adults of all ages \
-         in the U.S. In July, a majority of U.S. adults 18 and older (53%) said \
-         that worry and stress related to coronavirus has had a negative impact on \
-         their mental health.",
-        "This is why we created Mental Health - a lightweight and efficient mood \
-         tracker, advisor and general motivation keeper for you to get through the \
-         pandemic.",
+        "A ansiedade é um problema comum que afeta muitas pessoas em todo o mundo. Pode ser desencadeada por várias razões, como estresse, preocupações, medos e traumas passados.",
+        "É por isso que criamos Lumina - um rastreador de humor leve e eficiente, conselheiro e motivador geral para ajudá-lo a lidar com a ansiedade e melhorar sua saúde mental.",
         "",
-        "Contributors:",
-        "Ania Tselikova",
-        "Arlyn Miles",
-        "Egor Tarasov"
+        "Contribuidores:",
+        "Hyago Fellipe de Oliveira Soares",
+        "João Victor Freire de Matos Barbosa",
+        "João Paulo Alves Leal Borges"
     ]
 
     appendElem(content, "p", ['slight-header'], 
-        "One in Four Older Adults Report Anxiety or Depression Amid the COVID-19 Pandemic");
+        "A ansiedade é um problema comum que afeta muitas pessoas em todo o mundo.");
 
     articleContent.forEach(text => {
         appendElem(content, "p", ['about-text'], text);    
@@ -242,7 +235,6 @@ const initNavigation = () => {
     const buttonsContainer = select(".nav-buttons-container");    
 
     buttons.forEach((button, i) => {
-        // let curButton = appendElem(buttonsContainer, "div", ['nav-button', button]);
         let curButton = appendElem(buttonsContainer, "div", ['nav-button', button]);
         let navIcon = appendElem(curButton, "img", ['nav-icon']);
         navIcon.src = "./img/nav-icons/" + button + ".png";
@@ -264,7 +256,7 @@ const processNoteData = (badGoodNeutral, noteText, dateString) => {
 
 const initModalWindow = () => {
     const modalWindow = refresh(".modal-window");
-    appendElem(modalWindow, "p", ['slight-header'], "How was your day?");
+    appendElem(modalWindow, "p", ['slight-header'], "Como foi o seu dia?");
     const emoticonsHolder = appendElem(modalWindow, "div", ['emoticons-holder']);
 
     let selected = null;
@@ -288,8 +280,8 @@ const initModalWindow = () => {
         });
     });
 
-    appendElem(modalWindow, "p", ['slight-header', "on-your-mind"], "Write about your day");
-    appendElem(modalWindow, "p", ['gray-text'], "You can create word cloud out of these notes later.");
+    appendElem(modalWindow, "p", ['slight-header', "on-your-mind"], "Escreva sobre o seu dia");
+    appendElem(modalWindow, "p", ['gray-text'], "Você pode criar uma nuvem de palavras a partir destas notas mais tarde.");
 
     const noteArea = appendElem(modalWindow, "textarea", ["note-area"]);
     const calendar = appendElem(modalWindow, "input", ["datepicker"]);
@@ -297,9 +289,9 @@ const initModalWindow = () => {
     console.log(calendar.value);
 
     const submitContainer = appendElem(modalWindow, "div", ['submit-container']);
-    appendElem(submitContainer, "p", ['gray-text'], "We'll take your note from there!");
-    const discard = appendElem(submitContainer, "div", ['action-button'], "Discard");
-    const submitNote = appendElem(submitContainer, "div", ['action-button'], "Save");
+    appendElem(submitContainer, "p", ['gray-text'], "Vamos pegar sua nota daqui!");
+    const discard = appendElem(submitContainer, "div", ['action-button'], "Descartar");
+    const submitNote = appendElem(submitContainer, "div", ['action-button'], "Salvar");
 
     discard.addEventListener("click", () => {
         hideModalWindow();  
@@ -333,7 +325,7 @@ const initProfile = (username) => {
     const profile = select(".profile");
     profile.innerHTML = "";
 
-    appendElem(profile, "p", ['profile__title'], "My profile");    
+    appendElem(profile, "p", ['profile__title'], "Meu perfil");    
     const pictureWrapper = createElem("div", ['profile__avatar-wrapper']);
     const picture = createElem("img", ['profile__avatar-picture']);
     picture.setAttribute('src', 'img/' + userGender + '.png');
@@ -341,9 +333,9 @@ const initProfile = (username) => {
     profile.appendChild(pictureWrapper);
     appendElem(profile, "p", ['profile__username'], username);
 
-    if (username !== "Who are you?") {
+    if (username !== "Quem é você?") {
         const addMoodForm = appendElem(profile, "div", ['profile__add-mood']);
-        appendElem(addMoodForm, "p", ['slight-header'], "Add note");
+        appendElem(addMoodForm, "p", ['slight-header'], "Adicionar nota");
         const addMoodImage = appendElem(addMoodForm, "img", ['profile__add-mood-image']);
         addMoodImage.setAttribute("src", "img/calendar.png");
 
@@ -377,15 +369,15 @@ const initWelcomePage = () => {
     //
     const regWrapper = appendElem(content, "div", ['registration-wrapper']);
 
-    appendElem(regWrapper, "p", ['slight-header', 'big-header'], "Greetings! Please, introduce yourself");
-    appendElem(regWrapper, "p", [], "What is your name?");
+    appendElem(regWrapper, "p", ['slight-header', 'big-header'], "Olá! Por favor, apresente-se");
+    appendElem(regWrapper, "p", [], "Qual é o seu nome?");
     const nameInput = appendElem(regWrapper, "input", ['input-general'], "");
-    appendElem(regWrapper, "p", [], "How old are you, dear?");
+    appendElem(regWrapper, "p", [], "Quantos anos você tem, querido?");
     const ageInput = appendElem(regWrapper, "input", ['input-general'], "");
     ageInput.type = "number";
 
     const radioWrapper = appendElem(regWrapper, "div", ['gender-wrapper']);
-    ['man', 'woman'].forEach(gender => {
+    ['homem', 'mulher'].forEach(gender => {
         const label = appendElem(radioWrapper, "label", ['container'], gender);
         const input = appendElem(label, "input", ["radio-gender"]);
         input.type = "radio";
@@ -394,7 +386,7 @@ const initWelcomePage = () => {
         appendElem(label, "span", ["checkmark"]);
     });
 
-    const registerButton = appendElem(regWrapper, "div", ['action-button'], "Let's get going!");
+    const registerButton = appendElem(regWrapper, "div", ['action-button'], "Vamos começar!");
     registerButton.addEventListener("click", () => {
         register(nameInput.value, ageInput.value);
     });
@@ -440,14 +432,14 @@ const init = () => {
             initHome();
             select(".home").classList.add("cur-section");
         } else {
-            initProfile("Who are you?");
+            initProfile("Sem perfil");
             initWelcomePage();
         }
     }
     document.querySelector(".logout-wrapper").addEventListener("click", () => {
         cleanLocalStorage();
         localStorage.setItem("quotes", JSON.stringify(quotes));
-        initProfile("Who are you?");
+        initProfile("Sem perfil");
         initWelcomePage();
     });
 };

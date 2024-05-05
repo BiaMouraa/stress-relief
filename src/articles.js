@@ -1,383 +1,347 @@
 const getArticles = () => {
     return [
         {
-            name: "Depression",
-            artname: "Depression",
+            name: "Depressão",
+            artname: "Depressão",
             picname: "depression",
             content: [
                 {
-                    header: "What is depression?",
-                    text: "Feeling down from time to time is a normal part of life, but when emotions such as hopelessness and despair take hold and just won’t go away, you may have depression. More than just sadness in response to life’s struggles and setbacks, depression changes how you think, feel, and function in daily activities. It can interfere with your ability to work, study, eat, sleep, and enjoy life. Just trying to get through the day can be overwhelming. \
+                    header: "O que é depressão?",
+                    text: "Sentir-se triste de vez em quando é uma parte normal da vida, mas quando emoções como desesperança e desespero tomam conta e não desaparecem, você pode estar sofrendo de depressão. Mais do que apenas tristeza em resposta às lutas e contratempos da vida, a depressão altera como você pensa, sente e funciona nas atividades diárias. Pode interferir na sua capacidade de trabalhar, estudar, comer, dormir e aproveitar a vida. Apenas tentar passar o dia pode ser esmagador.\
 \
-While some people describe depression as “living in a black hole” or having a feeling of impending doom, others feel lifeless, empty, and apathetic. Men in particular can feel angry and restless. However you experience depression, left untreated it can become a serious health condition. But it’s important to remember that feelings of helplessness and hopelessness are symptoms of depression—not the reality of your situation.",
+Enquanto algumas pessoas descrevem a depressão como 'viver em um buraco negro' ou ter um sentimento de desgraça iminente, outras se sentem sem vida, vazias e apáticas. Os homens, em particular, podem se sentir irritados e inquietos. Independentemente de como você experimenta a depressão, se não tratada, pode se tornar uma condição de saúde grave. Mas é importante lembrar que sentimentos de impotência e desesperança são sintomas da depressão — não a realidade da sua situação."
                 },
                 {
-                    header: "Signs and symptoms of depression",
-                    text: "Feelings of helplessness and hopelessness. A bleak outlook—nothing will ever get better and there’s nothing you can do to improve your situation. \
+                    header: "Sinais e sintomas da depressão",
+                    text: "Sentimentos de impotência e desesperança. Uma perspectiva sombria — nada vai melhorar e não há nada que você possa fazer para melhorar sua situação. \
  \
-Loss of interest in daily activities. You don’t care anymore about former hobbies, pastimes, social activities, or sex. You’ve lost your ability to feel joy and pleasure. \
+Perda de interesse em atividades diárias. Você não se importa mais com hobbies antigos, passatempos, atividades sociais ou sexo. Você perdeu sua capacidade de sentir alegria e prazer. \
  \
-Appetite or weight changes. Significant weight loss or weight gain—a change of more than 5% of body weight in a month. \
+Mudanças no apetite ou peso. Perda ou ganho de peso significativo — uma mudança de mais de 5% do peso corporal em um mês. \
  \
-Sleep changes. Either insomnia, especially waking in the early hours of the morning, or oversleeping.\
+Mudanças no sono. Insônia, especialmente acordar nas primeiras horas da manhã, ou dormir demais.\
  \
-Anger or irritability. Feeling agitated, restless, or even violent. Your tolerance level is low, your temper short, and everything and everyone gets on your nerves.\
+Raiva ou irritabilidade. Sentir-se agitado, inquieto ou até violento. Seu nível de tolerância é baixo, seu temperamento é curto, e tudo e todos te irritam.\
 \
-Loss of energy. Feeling fatigued, sluggish, and physically drained. Your whole body may feel heavy, and even small tasks are exhausting or take longer to complete.\
+Perda de energia. Sentir-se fatigado, lento e fisicamente drenado. Seu corpo todo pode parecer pesado, e até pequenas tarefas são exaustivas ou levam mais tempo para serem completadas.\
 \
-Self-loathing. Strong feelings of worthlessness or guilt. You harshly criticize yourself for perceived faults and mistakes.\
+Autodesprezo. Fortes sentimentos de inutilidade ou culpa. Você critica severamente a si mesmo por falhas e erros percebidos.\
 \
-Reckless behavior. You engage in escapist behavior such as substance abuse, compulsive gambling, reckless driving, or dangerous sports.\
+Comportamento imprudente. Você se envolve em comportamentos de fuga, como abuso de substâncias, jogos de azar compulsivos, direção imprudente ou esportes perigosos.\
 \
-Concentration problems. Trouble focusing, making decisions, or remembering things.\
+Problemas de concentração. Dificuldade para focar, tomar decisões ou lembrar de coisas.\
 \
-Unexplained aches and pains. An increase in physical complaints such as headaches, back pain, aching muscles, and stomach pain."
+Dores e desconfortos inexplicados. Um aumento nas queixas físicas, como dores de cabeça, dor nas costas, dores musculares e dor de estômago."
                 }
             ]
         },
         {
-            name: "Bipolar Disorder",
-            artname: "Bipolar Disorder",
+            name: "Transtorno Bipolar",
+            artname: "Transtorno Bipolar",
             picname: "bipolar",
             content: [
                 {
-                    header: "What is bipolar disorder?",
-                    text: "We all have our ups and downs, but with bipolar disorder (once known as manic depression or manic-depressive disorder) these peaks and valleys are more severe. Bipolar disorder causes serious shifts in mood, energy, thinking, and behavior—from the highs of mania on one extreme, to the lows of depression on the other. More than just a fleeting good or bad mood, the cycles of bipolar disorder last for days, weeks, or months. And unlike ordinary mood swings, the mood changes of bipolar disorder are so intense that they can interfere with your job or school performance, damage your relationships, and disrupt your ability to function in daily life.",
+                    header: "O que é transtorno bipolar?",
+                    text: "Todos nós temos nossos altos e baixos, mas com o transtorno bipolar (anteriormente conhecido como depressão maníaca ou transtorno maníaco-depressivo) esses picos e vales são mais severos. O transtorno bipolar causa mudanças sérias no humor, energia, pensamento e comportamento — dos altos da mania em um extremo, aos baixos da depressão no outro. Mais do que apenas um bom ou mau humor passageiro, os ciclos do transtorno bipolar duram dias, semanas ou meses. E, ao contrário das variações de humor comuns, as mudanças de humor do transtorno bipolar são tão intensas que podem interferir no seu desempenho no trabalho ou na escola, danificar suas relações e perturbar sua capacidade de funcionar na vida diária."
                 },
                 {
-                    header: "Common signs and symptoms of mania include:",
-                    text: "Feeling unusually “high” and optimistic OR extremely irritable.\
+                    header: "Sinais e sintomas comuns da mania incluem:",
+                    text: "Sentir-se anormalmente 'alto' e otimista OU extremamente irritável.\
 \
-Unrealistic, grandiose beliefs about one’s abilities or powers.\
+Crenças irrealistas e grandiosas sobre as próprias habilidades ou poderes.\
 \
-Sleeping very little, but feeling extremely energetic.\
+Dormir muito pouco, mas sentir-se extremamente energético.\
 \
-Talking so rapidly that others can’t keep up.\
+Falar tão rapidamente que outros não conseguem acompanhar.\
 \
-Racing thoughts; jumping quickly from one idea to the next.\
+Pensamentos acelerados; saltar rapidamente de uma ideia para outra.\
 \
-Highly distractible, unable to concentrate.\
+Altamente distraível, incapaz de se concentrar.\
 \
-Impaired judgment and impulsiveness.\
+Julgamento prejudicado e impulsividade.\
 \
-Acting recklessly without thinking about the consequences.\
+Agir de forma imprudente sem pensar nas consequências.\
 \
-Delusions and hallucinations (in severe cases).",
+Delírios e alucinações (em casos graves)."
                 },
             ]
         },
         {
-            name: "Coronavirus Anxiety: Coping with Stress, Fear, and Worry",
-            artname: "Coronavirus Anxiety",
+            name: "Ansiedade: Lidando com o Estresse, Medo e Preocupação",
+            artname: "Ansiedade",
             picname: "covid",
             content: [
                 {
-                    header: "Understanding your anxiety",
-                    text: "It’s a frightening time. We’re in the midst of a worldwide pandemic, with many places at least partially shut down, others struggling to reopen safely. Some of us are in areas where the coronavirus infection rates are getting worse. Others are bracing for what may come next. And all of us are watching the headlines and wondering, “When is this going to end?”",
+                    header: "Entendendo sua ansiedade",
+                    text: "Ansiedade é uma reação natural diante de situações incertas ou estressantes. Todos nós experimentamos em algum momento. É normal sentir ansiedade em face de desafios ou decisões importantes, mas quando ela se torna constante ou esmagadora, pode interferir em suas atividades diárias."
                 },
                 {
-                    header: "Stay informed—but don’t obsessively check the news",
-                    text: "It’s vital to stay informed, particularly about what’s happening in your community, so you can follow advised safety precautions and do your part to slow the spread of coronavirus. But there’s a lot of misinformation going around, as well as sensationalistic coverage that only feeds into fear. It’s important to be discerning about what you read and watch.\
-\
-Stick to trustworthy sources such as the CDC, the World Health Organization, and your local public health authorities.\
-\
-Limit how often you check for updates. Constant monitoring of news and social media feeds can quickly turn compulsive and counterproductive—fueling anxiety rather than easing it. The limit is different for everyone, so pay attention to how you’re feeling and adjust accordingly.\
-\
-Step away from media if you start feeling overwhelmed. If anxiety is an ongoing issue, consider limiting your media consumption to a specific time frame and time of day (e.g. thirty minutes each evening at 6 pm).\
-\
-Ask someone reliable to share important updates. If you’d feel better avoiding media entirely, ask someone you trust to pass along any major updates you need to know about.\
-\
-Be careful what you share. Do your best to verify information before passing it on. Snopes’ Coronavirus Collection is one place to start. We all need to do our part to avoid spreading rumors and creating unnecessary panic.",
+                    header: "Mantenha-se informado — mas não verifique obsessivamente",
+                    text: "É importante estar bem informado, especialmente quando lidar com questões que afetam diretamente sua vida. No entanto, monitorar obsessivamente notícias ou mídias sociais pode aumentar sua ansiedade. Encontre um equilíbrio saudável que funcione para você, limitando sua exposição a fontes de estresse e focando em informações de fontes confiáveis e equilibradas."
                 },
                 {
-                    header: "Plan for what you can",
-                    text: "It’s natural to be concerned about what may happen if your workplace closes, your children have to stay home from school, you or someone you love gets sick, or you have to self-quarantine. While these possibilities can be scary to think about, being proactive can help relieve at least some of the anxiety.\
-\
-\
-Write down specific worries you have about how coronavirus may disrupt your life. If you start feeling overwhelmed, take a break.\
-\
-Make a list of all the possible solutions you can think of. Try not to get too hung up on “perfect” options. Include whatever comes to mind that could help you get by.\
-\
-Focus on concrete things you can problem solve or change, rather than circumstances beyond your control.\
-\
-After you’ve evaluated your options, draw up a plan of action. When you’re done, set it aside and resist the urge to go back to it until you need it or your circumstances significantly change.",
+                    header: "Planeje o que você pode",
+                    text: "Tomar medidas proativas frente às suas preocupações pode ajudar a reduzir a ansiedade. Identifique as questões que lhe causam estresse e explore maneiras de resolver ou mitigar esses problemas. Mesmo pequenas ações podem fazer uma grande diferença na forma como você se sente."
                 },
                 {
-                    header: "Take care of your body and spirit",
-                    text: "This is an extraordinarily trying time, and all the tried-and-true stress management strategies apply, such as eating healthy meals, getting plenty of sleep, and meditating. Beyond that, here are some tips for practicing self-care in the face of the unique disruptions caused by the coronavirus.\
-\
-Be kind to yourself. Go easy on yourself if you’re experiencing more depression or anxiety than usual. You’re not alone in your struggles.\
-\
-Maintain a routine as best you can. Even if you’re stuck at home, try to stick to your regular sleep, school, meal, or work schedule. This can help you maintain a sense of normalcy.\
-\
-Take time out for activities you enjoy. Read a good book, watch a comedy, play a fun board or video game, make something—whether it’s a new recipe, a craft, or a piece of art. It doesn’t matter what you do, as long as it takes you out of your worries.\
-\
-Get out in nature, if possible. Sunshine and fresh air will do you good. \
-\
-Even a walk around your neighborhood can make you feel better. Just be sure to avoid crowds, keep your distance from people you encounter, and obey restrictions in your area.\
-\
-Find ways to exercise. Staying active will help you release anxiety, relieve stress, and manage your mood. While gym and group classes may be out, you can still cycle, hike, or walk. Or if you’re stuck at home, look online for exercise videos you can follow. There are many things you can do even without equipment, such as yoga and exercises that use your own bodyweight.\
-\
-Avoid self-medicating. Be careful that you’re not using alcohol or other substances to deal with anxiety or depression. If you tend to overdo it in the best of times, it may be a good idea to avoid for now.\
-\
-Take up a relaxation practice. When stressors throw your nervous system out of balance, relaxation techniques such as deep breathing, meditation, and yoga can bring you back into a state of equilibrium. Regular practice delivers the greatest benefits, so see if you can set aside even a little time every day.",
-                },
+                    header: "Cuide do seu corpo e espírito",
+                    text: "O autocuidado é essencial para gerenciar a ansiedade. Práticas como uma alimentação saudável, exercícios regulares e sono adequado são fundamentais. Além disso, atividades relaxantes como leitura, hobbies e tempo na natureza podem ser incrivelmente terapêuticas. Reserve um tempo para atividades que o rejuvenescem e o ajudam a se desligar das preocupações diárias."
+                }
             ]
         },
-        {
-            name: "Obsessive-Compulsive Disorder (OCD)",
-            artname: "Obsessive-Compulsive Disorder",
+                {
+            name: "Transtorno Obsessivo-Compulsivo (TOC)",
+            artname: "Transtorno Obsessivo-Compulsivo",
             picname: "ocd",
             content: [
                 {
-                    header: "What is obsessive-compulsive disorder (OCD)?",
-                    text: "It’s normal, on occasion, to go back and double-check that the iron is unplugged or worry that you might be contaminated by germs, or even have an occasional unpleasant, violent thought. But if you suffer from obsessive-compulsive disorder (OCD), obsessive thoughts and compulsive behaviors become so consuming they interfere with your daily life. OCD is an anxiety disorder characterized by uncontrollable, unwanted thoughts and ritualized, repetitive behaviors you feel compelled to perform. If you have OCD, you probably recognize that your obsessive thoughts and compulsive behaviors are irrational—but even so, you feel unable to resist them and break free.",
+                    header: "O que é transtorno obsessivo-compulsivo (TOC)?",
+                    text: "É normal, ocasionalmente, voltar e verificar se o ferro está desligado ou preocupar-se que você possa ser contaminado por germes, ou até ter um pensamento violento desagradável ocasional. Mas se você sofre de transtorno obsessivo-compulsivo (TOC), pensamentos obsessivos e comportamentos compulsivos se tornam tão consumidores que interferem em sua vida diária. TOC é um transtorno de ansiedade caracterizado por pensamentos incontroláveis, indesejados e comportamentos ritualizados, repetitivos que você se sente compelido a executar. Se você tem TOC, provavelmente reconhece que seus pensamentos obsessivos e comportamentos compulsivos são irracionais — mas mesmo assim, você se sente incapaz de resistir a eles e se libertar."
                 },
                 {
-                    header: "OCD obsessions and compulsions",
-                    text: "Obsessions are involuntary thoughts, images, or impulses that occur over and over again in your mind. You don’t want to have these ideas, but you can’t stop them. Unfortunately, these obsessive thoughts are often disturbing and distracting.\
+                    header: "Obsessões e compulsões do TOC",
+                    text: "Obsessões são pensamentos, imagens ou impulsos involuntários que ocorrem repetidamente em sua mente. Você não quer ter essas ideias, mas não consegue pará-las. Infelizmente, esses pensamentos obsessivos são frequentemente perturbadores e distrativos.\
 \
-Compulsions are behaviors or rituals that you feel driven to act out again and again. Usually, compulsions are performed in an attempt to make obsessions go away. For example, if you’re afraid of contamination, you might develop elaborate cleaning rituals. However, the relief never lasts. In fact, the obsessive thoughts usually come back stronger. And the compulsive rituals and behaviors often end up causing anxiety themselves as they become more demanding and time-consuming. This is the vicious cycle of OCD.",
+Compulsões são comportamentos ou rituais que você se sente compelido a agir repetidamente. Geralmente, as compulsões são realizadas na tentativa de fazer as obsessões desaparecerem. Por exemplo, se você tem medo de contaminação, pode desenvolver rituais de limpeza elaborados. No entanto, o alívio nunca dura. Na verdade, os pensamentos obsessivos geralmente voltam mais fortes. E os rituais e comportamentos compulsivos muitas vezes acabam causando ansiedade por si mesmos, pois se tornam mais exigentes e consomem mais tempo. Este é o ciclo vicioso do TOC."
                 },
                 {
-                    header: "OCD signs and symptoms",
-                    text: "Just because you have obsessive thoughts or perform compulsive behaviors does NOT mean that you have obsessive-compulsive disorder. With OCD, these thoughts and behaviors cause tremendous distress, take up a lot of time (at least one hour per day), and interfere with your daily life and relationships.\
+                    header: "Sinais e sintomas do TOC",
+                    text: "Apenas porque você tem pensamentos obsessivos ou realiza comportamentos compulsivos NÃO significa que você tem transtorno obsessivo-compulsivo. Com o TOC, esses pensamentos e comportamentos causam um tremendo sofrimento, ocupam muito tempo (pelo menos uma hora por dia) e interferem em sua vida diária e relacionamentos.\
 \
-Most people with obsessive-compulsive disorder have both obsessions and compulsions, but some people experience just one or the other.",
+A maioria das pessoas com transtorno obsessivo-compulsivo têm obsessões e compulsões, mas algumas pessoas experimentam apenas uma ou outra."
                 },
                 {
-                    header: "Common obsessive thoughts in OCD include:",
+                    header: "Pensamentos obsessivos comuns no TOC incluem:",
                     text: "\
-Fear of being contaminated by germs or dirt or contaminating others\
+Medo de ser contaminado por germes ou sujeira ou contaminar outros\
 \
-Fear of losing control and harming yourself or others\
+Medo de perder o controle e prejudicar a si mesmo ou a outros\
 \
-Intrusive sexually explicit or violent thoughts and images\
+Pensamentos e imagens sexualmente explícitos ou violentos invasivos\
 \
-Excessive focus on religious or moral ideas\
+Foco excessivo em ideias religiosas ou morais\
 \
-Fear of losing or not having things you might need\
+Medo de perder ou não ter coisas que você pode precisar\
 \
-Order and symmetry: the idea that everything must line up “just right”\
+Ordem e simetria: a ideia de que tudo deve estar 'exatamente certo'\
 \
-Superstitions; excessive attention to something considered lucky or unlucky",
+Superstições; atenção excessiva a algo considerado sortudo ou azarado"
                 },
                 {
-                    header: "Common compulsive behaviors in OCD include:",
-                    text: "Excessive double-checking of things, such as locks, appliances, and switches\
+                    header: "Comportamentos compulsivos comuns no TOC incluem:",
+                    text: "Verificação excessiva de coisas, como trancas, aparelhos e interruptores\
 \
-Repeatedly checking in on loved ones to make sure they’re safe\
+Verificar repetidamente o bem-estar de entes queridos para ter certeza de que estão seguros\
 \
-Counting, tapping, repeating certain words, or doing other senseless things to reduce anxiety\
+Contar, tocar, repetir certas palavras ou fazer outras coisas sem sentido para reduzir a ansiedade\
 \
-Spending a lot of time washing or cleaning\
+Gastar muito tempo lavando ou limpando\
 \
-Ordering or arranging things “just so”\
+Organizar ou arrumar as coisas 'exatamente assim'\
 \
-Praying excessively or engaging in rituals triggered by religious fear\
+Orar excessivamente ou se envolver em rituais desencadeados por medo religioso\
 \
-Accumulating “junk” such as old newspapers or empty food containers",
+Acumular 'lixo', como jornais antigos ou recipientes de comida vazios"
                 },
             ]
         },
         {
-            name: "Panic Attacks and Panic Disorder",
-            artname: "Panic Attacks",
+            name: "Ataques de Pânico e Transtorno de Pânico",
+            artname: "Ataques de Pânico",
             picname: "panic_attacks",
             content: [
                 {
-                    header: "What is a panic attack?",
-                    text: "A panic attack is an intense wave of fear characterized by its unexpectedness and debilitating, immobilizing intensity. Your heart pounds, you can’t breathe, and you may feel like you’re dying or going crazy. Panic attacks often strike out of the blue, without any warning, and sometimes with no clear trigger. They may even occur when you’re relaxed or asleep.\
+                    header: "O que é um ataque de pânico?",
+                    text: "Um ataque de pânico é uma onda intensa de medo caracterizada pela sua imprevisibilidade e intensidade debilitante e imobilizadora. Seu coração dispara, você não consegue respirar e pode sentir como se estivesse morrendo ou enlouquecendo. Ataques de pânico frequentemente ocorrem do nada, sem qualquer aviso, e às vezes sem um gatilho claro. Eles podem até ocorrer quando você está relaxado ou dormindo.\
 \
-Panic attack signs and symptoms\
-The signs and symptoms of a panic attack develop abruptly and usually reach their peak within 10 minutes. They rarely last more than an hour, with most ending within 20 to 30 minutes. Panic attacks can happen anywhere and at any time. You may have one while you’re in a store shopping, walking down the street, driving in your car, or even sitting on the couch at home.",
+Sinais e sintomas de um ataque de pânico\
+Os sinais e sintomas de um ataque de pânico se desenvolvem abruptamente e geralmente atingem seu pico em 10 minutos. Eles raramente duram mais de uma hora, com a maioria terminando dentro de 20 a 30 minutos. Ataques de pânico podem acontecer em qualquer lugar e a qualquer momento. Você pode ter um enquanto está fazendo compras em uma loja, caminhando pela rua, dirigindo seu carro ou até mesmo sentado no sofá em casa."
                 },
                 {
-                    header: "Panic attack symptoms include:",
-                    text: "Shortness of breath or hyperventilation\n\
+                    header: "Sintomas de um ataque de pânico incluem:",
+                    text: "Falta de ar ou hiperventilação\n\
 \
-Heart palpitations or racing heart\n\
+Palpitações ou coração acelerado\n\
 \
-Chest pain or discomfort\n\
+Dor ou desconforto no peito\n\
 \
-Trembling or shaking\n\
+Tremores ou agitação\n\
 \
-Choking feeling\n\
+Sensação de asfixia\n\
 \
-Feeling unreal or detached from your surroundings\n\
+Sentir-se irreal ou desligado de seus arredores\n\
 \
-Sweating\n\
+Suor\n\
 \
-Nausea or upset stomach\n\
+Náusea ou estômago revirado\n\
 \
-Feeling dizzy, light-headed, or faint\n\
+Sentir-se tonto, atordoado ou desmaiar\n\
 \
-Numbness or tingling sensations\n\
+Sensações de formigamento ou dormência\n\
 \
-Hot or cold flashes\n\
+Calafrios ou ondas de calor\n\
 \
-Fear of dying, losing control, or going crazy",
+Medo de morrer, perder o controle ou enlouquecer"
                 },
             ]
         },
         {
-            name: "Burnout Prevention and Treatment",
-            artname: "Burnout",
+            name: "Prevenção e Tratamento do Esgotamento",
+            artname: "Esgotamento",
             picname: "burnout",
             content: [
                 {
-                    header: "What is burnout?",
-                    text: "Burnout is a state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress. It occurs when you feel overwhelmed, emotionally drained, and unable to meet constant demands. As the stress continues, you begin to lose the interest and motivation that led you to take on a certain role in the first place.\
+                    header: "O que é esgotamento?",
+                    text: "Esgotamento é um estado de exaustão emocional, física e mental causado por estresse excessivo e prolongado. Ocorre quando você se sente sobrecarregado, emocionalmente esgotado e incapaz de atender às demandas constantes. À medida que o estresse continua, você começa a perder o interesse e a motivação que o levaram a assumir um determinado papel inicialmente.\
 \
-Burnout reduces productivity and saps your energy, leaving you feeling increasingly helpless, hopeless, cynical, and resentful. Eventually, you may feel like you have nothing more to give.",
+O esgotamento reduz a produtividade e esgota sua energia, deixando você se sentindo cada vez mais desamparado, desesperançoso, cínico e ressentido. Eventualmente, você pode sentir como se não tivesse mais nada a oferecer."
                 },
                 {
-                    header: "Signs and symptoms of burnout",
-                    text: "Most of us have days when we feel helpless, overloaded, or unappreciated—when dragging ourselves out of bed requires the determination of Hercules. If you feel like this most of the time, however, you may be burned out.",
+                    header: "Sinais e sintomas do esgotamento",
+                    text: "A maioria de nós tem dias em que nos sentimos desamparados, sobrecarregados ou desvalorizados — quando sair da cama requer a determinação de Hércules. Se você se sente assim na maior parte do tempo, no entanto, você pode estar esgotado."
                 },
                 {
-                    header: "Physical signs and symptoms of burnout",
-                    text: "Feeling tired and drained most of the time.\
-Lowered immunity, frequent illnesses.\
-Frequent headaches or muscle pain.\
-Change in appetite or sleep habits.",
+                    header: "Sinais e sintomas físicos do esgotamento",
+                    text: "Sentir-se cansado e drenado na maior parte do tempo.\
+Imunidade baixa, doenças frequentes.\
+Dores de cabeça ou dores musculares frequentes.\
+Mudança no apetite ou hábitos de sono."
                 },
                 {
-                    header: "Emotional signs and symptoms of burnout",
-                    text: "Sense of failure and self-doubt.\
-Feeling helpless, trapped, and defeated.\
-Detachment, feeling alone in the world.\
-Loss of motivation.\
-Increasingly cynical and negative outlook.\
-Decreased satisfaction and sense of accomplishment.",
+                    header: "Sinais e sintomas emocionais do esgotamento",
+                    text: "Sentimento de fracasso e dúvida sobre si mesmo.\
+Sentir-se desamparado, preso e derrotado.\
+Desligamento, sentindo-se sozinho no mundo.\
+Perda de motivação.\
+Perspectiva cada vez mais cínica e negativa.\
+Diminuição da satisfação e senso de realização."
                 },
                 {
-                    header: "Behavioral signs and symptoms of burnout",
-                    text: "Withdrawing from responsibilities.\
-Isolating yourself from others.\
-Procrastinating, taking longer to get things done.\
-Using food, drugs, or alcohol to cope.\
-Taking out your frustrations on others.\
-Skipping work or coming in late and leaving early.",
+                    header: "Sinais e sintomas comportamentais do esgotamento",
+                    text: "Afastar-se das responsabilidades.\
+Isolar-se dos outros.\
+Procrastinar, demorar mais para fazer as coisas.\
+Usar comida, drogas ou álcool para lidar.\
+Descontar suas frustrações nos outros.\
+Faltar ao trabalho ou chegar tarde e sair cedo."
                 },
             ]
         },
         {
-            name: "Racism",
-            artname: "Racism",
+            name: "Racismo",
+            artname: "Racismo",
             picname: "racism",
             content: [
                 {
-                    header: "How racism affects your mental health",
-                    text: "Horrifying images of police brutality and the protests they spark tend to grab the news headlines. But if you’re black or another racial minority, experiencing racism and discrimination is often a daily but overlooked reality—and it can take a serious toll on your mental health, increasing your risk for depression, anxiety, stress, trauma, and substance abuse.\
+                    header: "Como o racismo afeta sua saúde mental",
+                    text: "Imagens horríveis de brutalidade policial e os protestos que elas desencadeiam tendem a capturar as manchetes de notícias. Mas se você é negro ou outra minoria racial, vivenciar racismo e discriminação é muitas vezes uma realidade diária, mas negligenciada — e isso pode ter um sério impacto em sua saúde mental, aumentando seu risco de depressão, ansiedade, estresse, trauma e abuso de substâncias.\
 \
-As a person of color, you’re far more likely to experience negative life events such as poverty, unemployment, incarceration, or abuse. Our society often overlooks black and minority contributions to history and culture, popular movies and TV shows tend to focus only on negative racial stereotypes, and some prominent politicians advocate hateful, violent bigotry. Financial institutions are less likely to grant you credit—or charge much more for doing so. And when disaster strikes, such as the global coronavirus pandemic and the resulting economic fallout, it’s our black and minority communities that bear the brunt of the suffering.",
+Como pessoa de cor, você tem muito mais chances de vivenciar eventos negativos da vida, como pobreza, desemprego, encarceramento ou abuso. Nossa sociedade muitas vezes ignora as contribuições negras e de minorias para a história e cultura, filmes e programas de TV populares tendem a focar apenas em estereótipos raciais negativos, e alguns políticos proeminentes defendem um ódio e uma violência grandes. As instituições financeiras são menos propensas a conceder crédito a você — ou cobram muito mais por isso. E quando a desgraça acontece, como a pandemia global de coronavírus e a consequente crise econômica, são nossas comunidades negras e de minorias que suportam o peso do sofrimento."
                 },
                 {
-                    header: "Racism and barriers to mental health care",
-                    text: "Not only does racism trigger mental health problems such as depression, anxiety, and trauma, it also adds barriers to getting help. For many black people or minorities there’s a great disparity in access to mental health resources. Even if you have access to a doctor or therapist, you may still encounter discrimination within the health care system itself. A lack of cultural understanding or prejudice on the part of a medical professional can result in a misdiagnosis or inappropriate treatment, or even discourage you from continuing to seek help.",
+                    header: "Racismo e barreiras ao cuidado com a saúde mental",
+                    text: "O racismo não apenas desencadeia problemas de saúde mental, como depressão, ansiedade e trauma, como também adiciona barreiras para obter ajuda. Para muitos negros ou minorias, há uma grande disparidade no acesso a recursos de saúde mental. Mesmo que você tenha acesso a um médico ou terapeuta, você ainda pode encontrar discriminação dentro do próprio sistema de saúde. A falta de compreensão cultural ou preconceito por parte de um profissional médico pode resultar em um diagnóstico incorreto ou tratamento inadequado, ou até desencorajar você de continuar buscando ajuda."
                 },
                 {
-                    header: "Other barriers to getting mental health care include:",
-                    text: "Stigma. Mental health still carries a stigma for many people, including those in some black and minority communities. Many black men, for example, see having a mental health problem as a personal failure or a sign of weakness. Rather than seek help, they’re more likely to bottle up their suffering or try to tough it out alone.\
+                    header: "Outras barreiras para obter cuidados de saúde mental incluem:",
+                    text: "Estigma. A saúde mental ainda carrega um estigma para muitas pessoas, incluindo aquelas em algumas comunidades negras e de minorias. Muitos homens negros, por exemplo, veem ter um problema de saúde mental como uma falha pessoal ou um sinal de fraqueza. Em vez de buscar ajuda, é mais provável que eles guardem seu sofrimento para si ou tentem enfrentar sozinhos.\
 \
-Too few black or minority therapists. In western countries, most therapists, counsellors, and other mental health professionals are white. Studies indicate that a white therapist misinterpreting a black client’s experience can lead to dangerous misdiagnoses. Black men, for example, are much more likely to be incorrectly diagnosed with schizophrenia than their white counterparts.\
+Poucos terapeutas negros ou de minorias. Nos países ocidentais, a maioria dos terapeutas, conselheiros e outros profissionais de saúde mental são brancos. Estudos indicam que um terapeuta branco interpretando mal a experiência de um cliente negro pode levar a diagnósticos perigosos. Homens negros, por exemplo, têm muito mais chances de serem incorretamente diagnosticados com esquizofrenia do que seus colegas brancos.\
 \
-Misunderstanding of mental health problems by some religious leaders in black and Asian communities. For many of us, religious institutions like churches or mosques play an important role in supporting our mental and emotional well-being. However, some religious figures mistake mental health problems for failings of faith or even discourage professional treatment.",
+Má compreensão dos problemas de saúde mental por alguns líderes religiosos em comunidades negras e asiáticas. Para muitos de nós, instituições religiosas como igrejas ou mesquitas desempenham um papel importante no apoio ao nosso bem-estar mental e emocional. No entanto, algumas figuras religiosas confundem problemas de saúde mental com falhas de fé ou até desencorajam o tratamento profissional."
                 },
                 {
-                    header: "Prioritizing self-help",
-                    text: "Whether you have access to professional treatment or not, there are effective self-help steps you can take to improve how you feel and protect your mental health. Whether racial prejudice and discrimination has left you feeling exhausted, hopeless, anxious, or traumatized, the following strategies can help you gain a sense of empowerment, build your resilience, and face the future with more optimism.",
+                    header: "Priorizando a autoajuda",
+                    text: "Seja você tem acesso a tratamento profissional ou não, há etapas eficazes de autoajuda que você pode tomar para melhorar como você se sente e proteger sua saúde mental. Seja o preconceito racial e a discriminação deixaram você se sentindo exausto, desesperançoso, ansioso ou traumatizado, as seguintes estratégias podem ajudá-lo a ganhar um senso de empoderamento, construir sua resiliência e enfrentar o futuro com mais otimismo."
                 },
             ]
         },
         {
-            name: "Are You Feeling Suicidal?",
+            name: "Você está se sentindo suicida?",
             picname: "suicide",
-            artname: "Feeling Suicidal?",
+            artname: "Se Sentindo Suicida?",
             content: [
                 {
-                    header: "If you’re having suicidal thoughts",
-                    text: "No matter how much pain you’re experiencing right now, you’re not alone. Many of us have had suicidal thoughts at some point in our lives. Feeling suicidal is not a character defect, and it doesn’t mean that you are crazy, or weak, or flawed. It only means that you have more pain than you can cope with right now. But with time and support, you can overcome your problems and the pain and suicidal feelings will pass.\
+                    header: "Se você está tendo pensamentos suicidas",
+                    text: "Não importa quanta dor você está sentindo agora, você não está sozinho. Muitos de nós já tivemos pensamentos suicidas em algum momento de nossas vidas. Sentir-se suicida não é um defeito de caráter, e não significa que você está louco, ou fraco, ou falho. Significa apenas que você tem mais dor do que consegue lidar no momento. Mas com tempo e apoio, você pode superar seus problemas e a dor e os sentimentos suicidas passarão.\
 \
-Some of the finest, most admired, needed, and talented people have been where you are now. Many of us have thought about taking our own lives when we’ve felt overwhelmed by depression and devoid of all hope. But the pain of depression can be treated and hope can be renewed.",
+Algumas das pessoas mais refinadas, admiradas, necessárias e talentosas estiveram onde você está agora. Muitos de nós pensamos em tirar nossas próprias vidas quando nos sentimos oprimidos pela depressão e desprovidos de toda esperança. Mas a dor da depressão pode ser tratada e a esperança pode ser renovada."
                 },
                 {
-                    header: "Take these immediate actions",
-                    text: "If you’re feeling suicidal at this moment, please follow these five steps:\
+                    header: "Tome estas ações imediatas",
+                    text: "Se você está se sentindo suicida neste momento, por favor, siga estas cinco etapas:\
 \
-Step #1: Promise not to do anything right now\
-Even though you’re in a lot of pain right now, give yourself some distance between thoughts and action. Make a promise to yourself: “I will wait 24 hours and won’t do anything drastic during that time.” Or, wait a week.\
+Etapa #1: Prometa não fazer nada agora\
+Mesmo que você esteja com muita dor agora, dê a si mesmo alguma distância entre pensamentos e ação. Faça uma promessa a si mesmo: 'Eu vou esperar 24 horas e não vou fazer nada drástico durante esse tempo.' Ou, espere uma semana.\
 \
-Thoughts and actions are two different things—your suicidal thoughts do not have to become a reality. There is no deadline, no one’s pushing you to act on these thoughts immediately. Wait. Wait and put some distance between your suicidal thoughts and suicidal action.\
+Pensamentos e ações são duas coisas diferentes — seus pensamentos suicidas não precisam se tornar realidade. Espere. Espere e coloque alguma distância entre seus pensamentos suicidas e ação suicida.\
 \
-Step #2: Avoid drugs and alcohol\
-Suicidal thoughts can become even stronger if you have taken drugs or alcohol. It is important to not use nonprescription drugs or alcohol when you feel hopeless or are thinking about suicide.\
+Etapa #2: Evite drogas e álcool\
+Pensamentos suicidas podem se tornar ainda mais fortes se você tiver consumido drogas ou álcool. É importante não usar drogas não prescritas ou álcool quando você se sente desesperançoso ou está pensando em suicídio.\
 \
-Step #3: Make your home safe\
-Remove things you could use to hurt yourself, such as pills, knives, razors, or firearms. If you are unable to do so, go to a place where you can feel safe. If you are thinking of taking an overdose, give your medicines to someone who can return them to you one day at a time as you need them.\
+Etapa #3: Torne sua casa segura\
+Remova coisas que você poderia usar para se machucar, como pílulas, facas, lâminas de barbear ou armas de fogo. Se você não conseguir fazer isso, vá para um lugar onde você possa se sentir seguro. Se você está pensando em tomar uma overdose, dê seus medicamentos a alguém que possa devolvê-los a você um dia de cada vez conforme você precisar deles.\
 \
-Step #4: Don’t keep these suicidal feelings to yourself\
-Many of us have found that the first step to coping with suicidal thoughts and feelings is to share them with someone we trust. It may be a family member, friend, therapist, member of the clergy, teacher, family doctor, coach, or an experienced counselor at the end of a helpline.\
+Etapa #4: Não guarde esses sentimentos suicidas para si mesmo\
+Muitos de nós descobrimos que o primeiro passo para lidar com pensamentos e sentimentos suicidas é compartilhá-los com alguém em quem confiamos. Pode ser um membro da família, amigo, terapeuta, membro do clero, professor, médico da família, treinador ou um conselheiro experiente no final de uma linha de ajuda.\
 \
-Find someone you trust and let them know how bad things are. Don’t let fear, shame, or embarrassment prevent you from seeking help. And if the first person you reach out to doesn’t seem to understand, try someone else. Just talking about how you got to this point in your life can release a lot of the pressure that’s building up and help you find a way to cope.\
+Encontre alguém em quem confie e conte a essa pessoa como as coisas estão ruins. Não deixe que o medo, a vergonha ou o constrangimento o impeçam de buscar ajuda. E se a primeira pessoa com quem você falar não parecer entender, tente outra pessoa. Apenas falar sobre como você chegou a este ponto em sua vida pode liberar muita pressão que está se acumulando e ajudá-lo a encontrar uma maneira de lidar.\
 \
-Step #5: Take hope – people DO get through this\
-Even people who feel as badly as you are feeling now manage to survive these feelings. Take hope in this. There is a very good chance that you are going to live through these feelings, no matter how much self-loathing, hopelessness, or isolation you are currently experiencing. Just give yourself the time needed and don’t try to go it alone.",
+Etapa #5: Tenha esperança — as pessoas CONSEGUEM passar por isso\
+Mesmo que as pessoas se sintam tão mal quanto você está se sentindo agora, elas conseguem sobreviver a esses sentimentos. Tenha esperança nisso. Há uma grande chance de que você vá viver através desses sentimentos, não importa o quanto de autoaversão, desesperança ou isolamento você esteja experimentando atualmente. Apenas dê a si mesmo o tempo necessário e não tente passar por isso sozinho."
                 },
                 {
-                    header: "Reaching out for help",
-                    text: "Even if it doesn’t feel like it right now, there are many people who want to support you during this difficult time. Reach out to someone. Do it now. If you promised yourself 24 hours or a week in step #1 above, use that time to tell someone what’s going on with you. Talk to someone who won’t try to argue about how you feel, judge you, or tell you to just “snap out of it.” Find someone who will simply listen and be there for you.\
+                    header: "Procurando ajuda",
+                    text: "Mesmo que não pareça agora, há muitas pessoas que querem apoiá-lo durante este momento difícil. Alcance alguém. Faça isso agora. Se você prometeu a si mesmo 24 horas ou uma semana na etapa #1 acima, use esse tempo para contar a alguém o que está acontecendo com você. Fale com alguém que não tentará discutir sobre como você se sente, julgá-lo ou dizer para você simplesmente 'se animar'. Encontre alguém que simplesmente ouvirá e estará lá para você.\
 \
-It doesn’t matter who it is, as long as it’s someone you trust and who is likely to listen with compassion and acceptance.",
+Não importa quem seja, desde que seja alguém em quem você confie e que provavelmente ouvirá com compaixão e aceitação."
                 },
             ]
         },
         {
-            name: "Social Media and Mental Health",
+            name: "Mídias Sociais e Saúde Mental",
             picname: "social",
-            artname: "Social media",
+            artname: "Mídias Sociais",
             content: [
                 {
-                    header: "The role social media plays in mental health",
-                    text: "Human beings are social creatures. We need the companionship of others to thrive in life, and the strength of our connections has a huge impact on our mental health and happiness. Being socially connected to others can ease stress, anxiety, and depression, boost self-worth, provide comfort and joy, prevent loneliness, and even add years to your life. On the flip side, lacking strong social connections can pose a serious risk to your mental and emotional health.\
-\
-In today’s world, many of us rely on social media platforms such as Facebook, Twitter, Snapchat, YouTube, and Instagram to find and connect with each other. While each has its benefits, it’s important to remember that social media can never be a replacement for real-world human connection. It requires in-person contact with others to trigger the hormones that alleviate stress and make you feel happier, healthier, and more positive. Ironically for a technology that’s designed to bring people closer together, spending too much time engaging with social media can actually make you feel more lonely and isolated—and exacerbate mental health problems such as anxiety and depression.\
-\
-The negative aspects of social media\
-Since it’s a relatively new technology, there’s little research to establish the long-term consequences, good or bad, of social media use. However, multiple studies have found a strong link between heavy social media and an increased risk for depression, anxiety, loneliness, self-harm, and even suicidal thoughts.",
+                    header: "O papel que as mídias sociais desempenham na saúde mental",
+                    text: "Os seres humanos são criaturas sociais. Precisamos da companhia de outros para prosperar na vida, e a força de nossas conexões tem um enorme impacto em nossa saúde mental e felicidade. Estar socialmente conectado a outros pode aliviar o estresse, a ansiedade e a depressão, aumentar a autoestima, proporcionar conforto e alegria, prevenir a solidão e até adicionar anos à sua vida. Por outro lado, a falta de conexões sociais fortes pode representar um risco sério para sua saúde mental e emocional."
                 },
                 {
-                    header: "Social media may promote negative experiences such as:",
-                    text: "Inadequacy about your life or appearance. Even if you know that images you’re viewing on social media are manipulated, they can still make you feel insecure about how you look or what’s going on in your own life. Similarly, we’re all aware that other people tend to share just the highlights of their lives, rarely the low points that everyone experiences. But that doesn’t lessen those feelings of envy and dissatisfaction when you’re scrolling through a friend’s airbrushed photos of their tropical beach holiday or reading about their exciting new promotion at work.\
-\
-Fear of missing out (FOMO). While FOMO has been around far longer than social media, sites such as Facebook and Instagram seem to exacerbate feelings that others are having more fun or living better lives than you are. The idea that you’re missing out on certain things can impact your self-esteem, trigger anxiety, and fuel even greater social media use. FOMO can compel you to pick up your phone every few minutes to check for updates, or compulsively respond to each and every alert—even if that means taking risks while you’re driving, missing out on sleep at night, or prioritizing social media interaction over real world relationships. \
-\
-Isolation. A study at the University of Pennsylvania found that high usage of Facebook, Snapchat, and Instagram increases rather decreases feelings of loneliness. Conversely, the study found that reducing social media usage can actually make you feel less lonely and isolated and improve your overall wellbeing.\
-\
-Depression and anxiety. Human beings need face-to-face contact to be mentally healthy. Nothing reduces stress and boosts your mood faster or more effectively than eye-to-eye contact with someone who cares about you. The more you prioritize social media interaction over in-person relationships, the more you’re at risk for developing or exacerbating mood disorders such as anxiety and depression.\
-\
-Cyberbullying. About 10 percent of teens report being bullied on social media and many other users are subjected to offensive comments. Social media platforms such as Twitter can be hotspots for spreading hurtful rumors, lies, and abuse that can leave lasting emotional scars.\
-\
-Self-absorption. Sharing endless selfies and all your innermost thoughts on social media can create an unhealthy self-centeredness and distance you from real-life connections.",
+                    header: "Aspectos negativos das mídias sociais",
+                    text: "Apesar de ser uma tecnologia relativamente nova, há pouca pesquisa para estabelecer as consequências de longo prazo, boas ou ruins, do uso das mídias sociais. No entanto, vários estudos encontraram uma forte ligação entre o uso intenso de mídias sociais e um aumento no risco de depressão, ansiedade, solidão, automutilação e até pensamentos suicidas."
                 },
                 {
-                    header: "Indicators that social media may be adversely affecting your mental health include:",
-                    text: "Spending more time on social media than with real world friends. Using social media has become a substitute for a lot of your offline social interaction. Even if you’re out with friends, you still feel the need to constantly check social media, often driven by feelings that others may be having more fun than you.\
+                    header: "As mídias sociais podem promover experiências negativas, como:",
+                    text: "Inadequação sobre sua vida ou aparência. Mesmo sabendo que as imagens que você está vendo nas mídias sociais são manipuladas, elas ainda podem fazer você se sentir inseguro sobre como você parece ou o que está acontecendo em sua própria vida. Da mesma forma, todos nós sabemos que outras pessoas tendem a compartilhar apenas os pontos altos de suas vidas, raramente os pontos baixos que todos experimentam. Mas isso não diminui esses sentimentos de inveja e insatisfação quando você está navegando pelas fotos retocadas de um amigo em suas férias na praia tropical ou lendo sobre sua empolgante promoção no trabalho.\
 \
-Comparing yourself unfavorably with others on social media. You have low self-esteem or negative body image. You may even have patterns of disordered eating.\
+Medo de perder algo (FOMO). Embora o FOMO exista há muito mais tempo do que as mídias sociais, sites como Facebook e Instagram parecem exacerbar a sensação de que outros estão se divertindo mais ou vivendo vidas melhores do que você. A ideia de que você está perdendo algo pode impactar sua autoestima, desencadear ansiedade e alimentar um uso ainda maior das mídias sociais. O FOMO pode levá-lo a pegar seu telefone a cada poucos minutos para verificar atualizações, ou responder compulsivamente a cada alerta — mesmo que isso signifique assumir riscos enquanto você está dirigindo, perder sono à noite ou priorizar a interação em mídias sociais sobre relacionamentos no mundo real. \
 \
-Experiencing cyberbullying. Or you worry that you have no control over the things people post about you.\
+Isolamento. Um estudo da Universidade da Pensilvânia descobriu que o uso alto de Facebook, Snapchat e Instagram aumenta, em vez de diminuir, sentimentos de solidão. Ao contrário, o estudo descobriu que reduzir o uso de mídias sociais pode realmente fazer você se sentir menos solitário e isolado e melhorar seu bem-estar geral.\
 \
-Being distracted at school or work. You feel pressure to post regular content about yourself, get comments or likes on your posts, or respond quickly and enthusiastically to friends’ posts.\
+Depressão e ansiedade. Seres humanos precisam de contato cara a cara para serem mentalmente saudáveis. Nada reduz o estresse e melhora seu humor mais rápido ou mais efetivamente do que o contato olho no olho com alguém que se importa com você. Quanto mais você prioriza a interação em mídias sociais em detrimento de relacionamentos pessoais, mais você está em risco de desenvolver ou exacerbar transtornos de humor, como ansiedade e depressão.\
 \
-Having no time for self-reflection. Every spare moment is filled by engaging with social media, leaving you little or no time for reflecting on who you are, what you think, or why you act the way that you do—the things that allow you to grow as a person.\
+Cyberbullying. Cerca de 10% dos adolescentes relatam serem intimidados nas mídias sociais e muitos outros usuários estão sujeitos a comentários ofensivos. Plataformas de mídias sociais como o Twitter podem ser pontos de disseminação de rumores prejudiciais, mentiras e abusos que podem deixar cicatrizes emocionais duradouras.\
 \
-Engaging in risky behavior in order to gain likes, shares, or positive reactions on social media. You play dangerous pranks, post embarrassing material, cyberbully others, or access your phone while driving or in other unsafe situations.  \
+Autoabsorção. Compartilhar selfies intermináveis e todos os seus pensamentos mais íntimos nas mídias sociais pode criar um egocentrismo insalubre e distanciá-lo de conexões na vida real."
+                },
+                {
+                    header: "Indicadores de que as mídias sociais podem estar afetando negativamente sua saúde mental incluem:",
+                    text: "Passar mais tempo em mídias sociais do que com amigos do mundo real. Usar mídias sociais se tornou um substituto para muita interação social offline. Mesmo quando você está com amigos, você ainda sente a necessidade de verificar constantemente as mídias sociais, frequentemente impulsionado pela sensação de que outros podem estar se divertindo mais do que você.\
 \
-Suffering from sleep problems. Do you check social media last thing at night, first thing in the morning, or even when you wake up in the night? The light from phones and other devices can disrupt your sleep, which in turn can have a serious impact on your mental health.\
+Comparar-se desfavoravelmente com outros nas mídias sociais. Você tem baixa autoestima ou imagem corporal negativa. Você pode até ter padrões de alimentação desordenada.\
 \
-Worsening symptoms of anxiety or depression. Rather than helping to alleviate negative feelings and boost your mood, you feel more anxious, depressed, or lonely after using social media.",
+Experimentar cyberbullying. Ou você se preocupa que não tem controle sobre as coisas que as pessoas postam sobre você.\
+\
+Ser distraído na escola ou no trabalho. Você sente pressão para postar conteúdo regular sobre si mesmo, obter comentários ou curtidas em suas postagens, ou responder rapidamente e com entusiasmo às postagens de amigos.\
+\
+Não ter tempo para auto-reflexão. Todo momento livre é preenchido por engajamento com mídias sociais, deixando pouco ou nenhum tempo para refletir sobre quem você é, o que você pensa, ou por que você age da maneira que age — as coisas que permitem que você cresça como pessoa.\
+\
+Envolver-se em comportamentos arriscados para ganhar curtidas, compartilhamentos ou reações positivas nas mídias sociais. Você realiza brincadeiras perigosas, posta material embaraçoso, faz bullying cibernético com outros, ou acessa seu telefone enquanto dirige ou em outras situações inseguras.\
+\
+Sofrer de problemas de sono. Você verifica as mídias sociais pela última vez à noite, pela primeira vez pela manhã, ou mesmo quando acorda durante a noite? A luz de telefones e outros dispositivos pode perturbar seu sono, o que por sua vez pode ter um impacto sério em sua saúde mental.\
+\
+Sintomas piorados de ansiedade ou depressão. Em vez de ajudar a aliviar sentimentos negativos e melhorar seu humor, você se sente mais ansioso, deprimido ou solitário após usar mídias sociais."
                 },
             ]
         }

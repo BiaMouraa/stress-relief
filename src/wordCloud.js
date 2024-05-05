@@ -1,12 +1,12 @@
 const WORD_CLOUD_API_KEY = "6f55d1c186msh76d74ffdc9d7f64p152c91jsn1375ff010c49";
 
-const updateWordCloud = (word) => {
-    let words = localStorage.getItem("words"); 
-    words += " " + word;
-    localStorage.setItem("words", words);
+const updateWordCloud = (palavra) => {
+    let palavras = localStorage.getItem("words");
+    palavras += " " + palavra;
+    localStorage.setItem("words", palavras);
 };
 
-const getPicture = (pictureWrapper, text) => {
+const getPicture = (embrulhoImagem, texto) => {
     return fetch("https://textvis-word-cloud-v1.p.rapidapi.com/v1/textToCloud", {
         method: "POST",
         headers: {
@@ -16,10 +16,10 @@ const getPicture = (pictureWrapper, text) => {
             accept: "application/json"
         },
         body: JSON.stringify({
-            text: text,
+            text: texto,
             scale: 1,
-            width: pictureWrapper.offsetWidth,
-            height: pictureWrapper.offseHeight,
+            width: embrulhoImagem.offsetWidth,
+            height: embrulhoImagem.offseHeight,
             colors: ["#375E97", "#FB6542", "#FFBB00", "#3F681C"],
             font: "Tahoma",
             use_stopwords: false,
