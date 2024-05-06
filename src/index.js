@@ -329,7 +329,7 @@ const initModalWindow = () => {
 const initProfile = (username) => {
     let userGender = localStorage.getItem("userGender");
     if (!userGender) {
-        userGender = "octo_shifted";
+        userGender = "mental";
     }
 
     const profile = select(".profile");
@@ -442,14 +442,14 @@ const init = () => {
             initHome();
             select(".home").classList.add("cur-section");
         } else {
-            initProfile("Sem perfil");
+            initProfile(""); //botar nome perfil 
             initWelcomePage();
         }
     }
     document.querySelector(".logout-wrapper").addEventListener("click", () => {
         cleanLocalStorage();
         localStorage.setItem("quotes", JSON.stringify(quotes));
-        initProfile("Sem perfil");
+        initProfile(""); //aqui tbm tinha um nome
         initWelcomePage();
     });
 };
