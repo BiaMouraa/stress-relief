@@ -442,14 +442,14 @@ const init = () => {
             initHome();
             select(".home").classList.add("cur-section");
         } else {
-            initProfile("Rafaela");
+            initProfile(""); //botar nome perfil 
             initWelcomePage();
         }
     }
     document.querySelector(".logout-wrapper").addEventListener("click", () => {
         cleanLocalStorage();
         localStorage.setItem("quotes", JSON.stringify(quotes));
-        initProfile("");
+        initProfile(""); //aqui tbm tinha um nome
         initWelcomePage();
     });
 };
