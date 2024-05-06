@@ -77,13 +77,23 @@ const initGraph = () => {
     const graphData = {
         chart: {
             type: 'area',
-            colors: ["#e0b389"],
+            colors: ["#C7F464"],
             toolbar: {
                 show: false
             }
         },
+        // theme: {
+        //     palette: 'palette7',
+        // },
         theme: {
-            palette: 'palette3',
+            mode: 'light', 
+            palette: 'palette2', 
+            monochrome: {
+                enabled: true,
+                color: '#C7F464',
+                shadeTo: 'light',
+                shadeIntensity: 0.65
+            },
         },
         series: [],
         xaxis: { 
