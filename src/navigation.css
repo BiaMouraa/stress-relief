@@ -6,7 +6,7 @@
     grid-column: 2 / 6;
     grid-row: 2 / 30;
 
-    background-color: #a5d1e7;
+    background-color: #b8e67883;
 
     border-radius: 20px;
 }
@@ -41,7 +41,7 @@
 }
 
 .nav-button:hover {
-    background-color: #b9dcec;
+    background-color: #b8e67883;
 }
 
 .nav-icon {
@@ -49,5 +49,5 @@
 }
 
 .cur-section {
-    background-color: #b9dcec;
+    background-color: #b8e67883;
 }

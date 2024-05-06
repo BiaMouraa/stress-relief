@@ -2,7 +2,7 @@
     grid-column: 25 / 31;
     grid-row: 1 / 31;
 
-    background-color: white;
+    background-color: ffffffe8;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -24,7 +24,7 @@
 
     border-radius: 50%;
     overflow: hidden;
-    background-color: #a5d1e7;
+    background-color: #b8e67883;
 }
 
 .profile__username {
@@ -44,7 +44,7 @@
     transition: 0.2s linear 0s;
     overflow: hidden;
     padding: 5%;
-    background-color: #a5d1e7;
+    background-color: #b8e67883;
 }
 
 .profile__add-mood:hover {

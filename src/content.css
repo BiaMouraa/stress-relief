@@ -26,7 +26,7 @@
 
     width: 30%;
     width: 90%; 
-    background-color: #ddeef6;
+    background-color: #b8e67883;
     border-radius: 20px;
 
     padding: 10px 20px;
@@ -71,12 +71,12 @@
 
 .task-add {
     transition: 0.2s linear 0s;
-    background-color: #ddeef6;
+    background-color: #b8e67883;
     display: flex;
 }
 
 .task-add:hover {
-    background-color: #a5d1e7;
+    background-color: #b8e67883;
 }
 
 .task-name-wrapper {
